@@ -45,3 +45,34 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
+.orange-highlight{
+    color: orange;
+}
+.purple-hightlight{
+    color: purple;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#DM{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, purple, violet);
+    border-image-slice: 1;
+}
+#KF{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, lightsalmon);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
